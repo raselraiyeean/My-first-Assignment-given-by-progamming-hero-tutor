@@ -1,0 +1,18 @@
+
+
+.azeret-mono-style {
+  font-family: Azeret Mono, monospace;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+/* header style start */
+.header-part-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-part-1>h4 {
+    font-weight: 800;
+    font-size: 28px;
+}
