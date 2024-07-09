@@ -6,8 +6,16 @@
   
   font-style: normal;
 }
+
+/* Shared style  */
+.common-description{
+    color: #737783;
+    font-weight: 400;
+    font-size: 16px;
+}
 /* header style start */
 .header-part-1 {
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -15,4 +23,91 @@
 .header-part-1>h4 {
     font-weight: 800;
     font-size: 28px;
+    margin: 5px;
 }
+
+.header-part-1>button {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: 1px solod #cdcdcd;
+}
+
+.header-main-section {
+    background-image: url(../images/Hero-bg.png);
+}
+
+.img-and-content-container {
+    margin: 45px 241px;
+    justify-content: center;
+    padding: 26px;
+}
+
+    
+
+
+.img-and-content-container>img {
+  display: block;
+  margin: auto;
+  width: 240px;
+  height: 240px;
+}
+    
+.img-and-content-container>h2 {
+    font-weight: 800px;
+    font-size: 48px;
+    text-align: center;
+    margin: 5px;
+}
+
+.img-and-content-container button {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #0d1321;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #fafafa;
+    margin: auto;
+    display: block;
+    
+}
+
+/* main style part start */
+
+.heading-of-coding-purpose-description {
+    background-color: #fafafb;
+    border-radius: 10px;
+    margin: 65px 101px;
+    padding: 60px 50px;
+
+}
+
+.webdev-purpose-block {
+    background-image: linear-gradient(to right, #ffffff, #fafafb) ;
+    margin-bottom: 20px;
+      border-radius: 10px;
+      padding: 35px 30px;
+}
+
+.first-purpose, .second-purpose, .third-purpose {
+    display: flex;
+    gap: 60px;  
+}
+
+.header-p-1, .header-p-2, .header-p-3 {
+    width: 50%;
+} 
+
+.webdev-purpose-block button {
+    border: 1px solid #d0d2d4;
+    background-color: #fcfcfd;
+    padding: 5px;
+}
+
+.middle-button {
+    display: block;
+    margin: auto;
+}
+
