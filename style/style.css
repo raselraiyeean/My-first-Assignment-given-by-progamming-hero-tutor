@@ -68,11 +68,12 @@
     background-color: #0d1321;
     border-radius: 5px;
     padding: 10px 5px;
-    color: #fafafa;
+    
     margin: auto;
     display: block;
     
 }
+
 
 /* main style part start */
 
@@ -93,7 +94,7 @@
 
 .first-purpose, .second-purpose, .third-purpose {
     display: flex;
-    gap: 60px;  
+    gap: 200px;  
 }
 
 .header-p-1, .header-p-2, .header-p-3 {
@@ -105,9 +106,69 @@
     background-color: #fcfcfd;
     padding: 5px;
 }
+.main-heading-purpose {
+    margin: 30px;
+
+}
+
+.main-heading-purpose h2 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.main-heading-purpose p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 
 .middle-button {
     display: block;
     margin: auto;
 }
+
+/* main style part end */
+
+/* inspiration style part start */
+
+.my-inspiration-part {
+    border-radius: 10px;
+    margin: 65px 101px;
+    padding: 60px 50px;
+
+}
+
+.my-inspiration-header-p h3,p {
+    text-align: center;
+} 
+
+.video-part {
+    border-radius: 10px;
+    margin: 65px 101px;
+    padding: 60px 50px;
+    border: 3px solid #f9f9f9;
+}
+
+/* inspiration style part end */
+
+.current-target h2 {
+    text-align: center;
+}
+
+.current-target {
+    border-radius: 10px;
+    margin: 65px 101px;
+    padding: 60px 50px;
+    
+}
+
+.current-target p {
+    width: ;
+    text-align: center;
+
+}
+
+
+
 
